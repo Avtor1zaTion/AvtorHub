@@ -85,6 +85,11 @@ OthersSection:NewButton("🟪Pink RTX🟪", "🟪Pink RTX🟪", function()
    loadstring(game:HttpGet(('https://pastefy.app/cAySDj1Q/raw'),true))()
 end)
 
+OthersSection:NewButton("🔳Change Delta Icon🔳", "🔳Change Delta Icon🔳", function()
+
+game.CoreGui.DeltaIcon.ImageButton.Image = "rbxassetid://14890616326"
+game.CoreGui.DeltaIcon.ImageButton.UIStroke.Color = Color3.fromRGB(0, 0, 0)  
+end)
 OthersSection:NewButton("㊙Universall ShiftLock㊙", "🌐Universall ShiftLock🌐", function()
    loadstring(game:HttpGet('https://pastebin.com/raw/gSrbeNsB'))();
 end)
@@ -205,4 +210,3 @@ end)
 local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
 local CreatorSection = CreatorTab:NewSection("Credits to Avtor1zaTion")
 local CreatorSection = CreatorTab:NewSection("Version 1.4")
-
