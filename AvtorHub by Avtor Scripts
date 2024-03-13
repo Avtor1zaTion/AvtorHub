@@ -196,6 +196,13 @@ OthersSection:NewButton("🐕Pets Trading🐕", "🐕Pets Trading🐕", function
 end)
 
 
+OthersSection:NewButton("🗡Murder Mystery 2🗡", "🗡Murder Mystery 2🗡", function()
 
-local CreatorTab = Window:NewTab("Credits")
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+end)
+
+
+local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
 local CreatorSection = CreatorTab:NewSection("Credits to Avtor1zaTion")
+local CreatorSection = CreatorTab:NewSection("Version 1.4")
+
