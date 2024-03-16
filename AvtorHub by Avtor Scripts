@@ -35,7 +35,11 @@ PlrSection:NewButton("Invisibility FE", "📴Invisibility📴", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
 end)
 
-PlrSection:NewButton("FullBrightness", "Invisibility", function()
+PlrSection:NewButton("🧲Fling All🧲", "🧲Fling All🧲", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+end)
+
+PlrSection:NewButton("FullBrightness", "🌫Invisibility🌫", function()
     local Light = game:GetService("Lighting")
  
 function dofullbright()
@@ -53,7 +57,7 @@ local OthersTab = Window:NewTab("Universall")
 local OthersSection = OthersTab:NewSection("Universall")
  
 OthersSection:NewButton("👑Infinite yield👑", "👑Infinite yield👑", function()
-    loadstring(game:HttpGet("https:// fcdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 OthersSection:NewButton("📱растяг экрана📱", "📱растяг экрана📱", function()
@@ -105,6 +109,11 @@ OthersSection:NewButton("🌀Flashback🌀", "🌀Flashback🌀", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/L"))()
 end)
 
+OthersSection:NewButton("⬛Ghost Hub⬛", "⬛Ghost Hub⬛", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
 OthersSection:NewButton("🌫Fly Gui🌫", "🌫Fly Gui🌫", function()
    loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 end)
@@ -113,12 +122,22 @@ OthersSection:NewButton("🎯Zoom Camera🎯", "🎯Zoom Camera🎯", function()
    loadstring(game:HttpGet(('https://pastefy.app/Rmbg6Zxh/raw'),true))()
 end)
 
+OthersSection:NewButton("📝FE Chat Controller📝", "📝FE Chat Controller📝", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/MdSA4fn5'))()
+end)
+
 OthersSection:NewButton("⌨️Keyboard⌨️", "⌨️Keyboard⌨️", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
 OthersSection:NewButton("❤️‍🔥RTX❤️‍🔥", "❤️‍🔥RTX❤️‍🔥", function()
    loadstring(game:HttpGet('https://pastebin.com/raw/Bkf0BJb3'))()
+end)
+
+OthersSection:NewButton("💊Realistic First Person💊", "💊Realistic First PReson💊", function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/qNkSxqux'),true))()
 end)
 
 OthersSection:NewButton("👥Tp To Player👥", "👥Tp To Player👥", function()
@@ -133,7 +152,12 @@ OthersSection:NewButton("⏰Stop Time⏰", "⏰Stop Time⏰", function()
    loadstring(game:HttpGet('https://pastebin.com/raw/djAd7g2W'))()
 end)
 
-OthersSection:NewButton("😍FE Fake WallHop😍", "😍FE Fake WallHop😍", function()
+OthersSection:NewButton("⬜FE Fake WallHop V1⬜", "⬜FE Fake WallHop V1⬜", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/mZ1g6F6E"))()
+end)
+
+OthersSection:NewButton("🅰FE Fake WallHop V2🅰", "🅰FE Fake WallHop V2🅰", function()
    loadstring(game:HttpGet("https://pastefy.app/Tqe0KlAP/raw", true))()
 end)
 
@@ -155,6 +179,11 @@ end)
 
 OthersSection:NewButton("🌠Ping+FPS🌠", "🌠Ping+FPS🌠", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/a0uXyDSE'),true))()
+end)
+
+OthersSection:NewButton("🈶Universall Delta Translate🈶", "🈶Universall Delta Translate🈶", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/b8yf9ik7"))()
 end)
 
 OthersSection:NewButton("👼R15 Angel Animation👼", "👼R15 Angel Animation👼", function()
@@ -212,4 +241,4 @@ end)
 
 local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
 local CreatorSection = CreatorTab:NewSection("Credits to Avtor1zaTion")
-local CreatorSection = CreatorTab:NewSection("Version 1.4")
+local CreatorSection = CreatorTab:NewSection("Version 1.5")
