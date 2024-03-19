@@ -165,6 +165,11 @@ OthersSection:NewButton("❄SnowFlake❄", "❄SnowFlake❄", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/9AxRXEvJ'),true))()
 end)
 
+OthersSection:NewButton("🧱NO FE Backrooms(wait 3 sec)🧱", "🧱NO FE Backrooms(wait 3 sec)🧱", function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/p9XVCcuk'),true))()
+end)
+
 OthersSection:NewButton("🫂Universall Colizium🫂", "🫂Universall Colizium🫂", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/TJRmVqE3'),true))()
 end)
